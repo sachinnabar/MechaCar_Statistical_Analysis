@@ -19,3 +19,18 @@ head(total_summary)
 # Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil's PSI column.
 lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PSI=mean(PSI),Median_PSI=median(PSI),Variance_PSI=var(PSI),SD=sd(PSI), .groups = 'keep') #create summary table with multiple columns
 head(lot_summary)
+
+#DELIVERABLE 3
+# An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population
+t.test(suspension_coil$PSI,mu=1500)
+#An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population
+
+lot1 <- subset(suspension_coil, Manufacturing_Lot=="Lot1")
+t.test(lot1$PSI,mu=1500)
+
+lot2 <- subset(suspension_coil,Manufacturing_Lot=="Lot2")
+t.test(lot2$PSI,mu=1500)
+
+lot3 <- subset(suspension_coil, Manufacturing_Lot=="Lot3")
+t.test(lot3$PSI,mu=1500)
+
