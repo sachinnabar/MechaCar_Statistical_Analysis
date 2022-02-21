@@ -17,3 +17,16 @@ Deliverable 1 – Linear Regression to Predict MPG:
 •	The linear model does predict miles per gallon (mpg) effectively approximately 71.4% of the time. This is based on the calculated r-squared value, which in this case was 0.7149, which represents how well the regression model represents real world data, falling between a range of 0 and 1, where 0 represents no predictability, and 1 represents complete predictability. In this case, the r-squared value of 0.7149 demonstrates the strength of the correlation to be strong.
 ![image](https://user-images.githubusercontent.com/93049541/154872187-7cb3ffdd-701d-4ae8-8747-84543439d23d.png)
 https://github.com/sachinnabar/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable%201.PNG
+
+Deliverable 2 - Summary Statistics on Suspension Coils:
+•	The design specifications for the MechaCar suspension coils dictated that the variance of the suspension coils must not exceed 100 pounds per square inch. Based on the total_summary dataframe that was created, we can see that the variance total variance for all three lots was 62.29356, which falls well below the 100-psi threshold.
+•	 Based on a per lot basis however, we can see in the lot_summary dataframe, that the variance does differ by lot number. Lot 1 and Lot 2 have a variance of 0.9795918 and 7.4693878 respectively, which both fall within the variance tolerance of 100-psi. Lot 3 however has a appreciably higher variance of 170.2861224, which exceeds the variance toleration dictated in the design specifications. This means that Lot 3 will have to be removed for production implementation, but Lot 1 and Lot 2 could be used in production.
+
+Total_Summary Table
+![image](https://user-images.githubusercontent.com/93049541/154873607-298cc9ce-2bee-4985-8fec-be3110d6db5f.png)
+https://github.com/sachinnabar/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable%202.1.PNG
+
+Lot_Summary Table
+![image](https://user-images.githubusercontent.com/93049541/154873629-e4cbc5f7-7406-4984-8529-521bef880b66.png)
+https://github.com/sachinnabar/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable%202.2.PNG
+
