@@ -13,4 +13,3 @@ Deliverable 1 – Linear Regression to Predict MPG
 •	The linear model does predict miles per gallon (mpg) effectively approximately 71.4% of the time. This is based on the calculated r-squared value, which in this case was 0.7149, which represents how well the regression model represents real world data, falling between a range of 0 and 1, where 0 represents no predictability, and 1 represents complete predictability. In this case, the r-squared value of 0.7149 demonstrates the strength of the correlation to be strong.
 ![image](https://user-images.githubusercontent.com/93049541/154872187-7cb3ffdd-701d-4ae8-8747-84543439d23d.png)
 https://github.com/sachinnabar/MechaCar_Statistical_Analysis/blob/main/Images/Deliverable%201.PNG
-
