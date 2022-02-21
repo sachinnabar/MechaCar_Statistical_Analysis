@@ -1,3 +1,7 @@
+Project Overview
+•	The purpose of this project was to perform retrospective analysis of historical data, analytical verification of current automotive specifications, and study design of future project testing, as part of the data analytics team at AutosRUs using the programming language R. 
+•	The analysis must be based on a statistical backbone, a quantitative metric, with a clear interpretation of the results. The analysis required a production of the summary statistics of different variables, visualizations of different data sets, and finally our own interpretation of the statistical test results. 
+
 Purpose
 The purpose of this challenge was to help Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team in production of AutosRUs’ newest prototype, the MechaCar. 
 The MechaCar is currently suffering from production troubles that are blocking the manufacturing team’s progress, and upper management has directed Jeremy and his team to assist.
